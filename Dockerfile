@@ -8,6 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get update && apt-get install -y \
 	nodejs \
 	make \
+	tree \
 	g++ \
 	gnupg \
 	firefox \
